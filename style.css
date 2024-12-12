@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f8;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    margin-bottom: 30px;
+}
+
+/* Controls Section */
+button {
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Array Display */
+#arrayContainer {
+    width: 80%;
+}
+
+.bar {
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+#sortedValues {
+    gap: 10px;
+}
+
+.sorted-value {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+}
